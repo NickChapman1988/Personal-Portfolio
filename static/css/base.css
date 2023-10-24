@@ -87,7 +87,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 10rem;
 }
 .header-content .right-header .hello {
   font-size: 3rem;
@@ -108,10 +108,10 @@ header {
   line-height: 2rem;
 }
 
+/* Buttons */
 .btn-container {
   display: flex;
   align-self: flex-start;
-  justify-content: space-between;
 }
 
 .main-btn {
@@ -123,7 +123,7 @@ header {
   margin: 0.5rem;
   display: flex;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
   text-decoration: none;
 }
 .main-btn .btn-text {
