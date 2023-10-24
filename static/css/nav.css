@@ -1,11 +1,25 @@
 .navigation {
     width: 90px;
-    height: 330px;
+    height: 320px;
     background: var(--color-tertiary);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+}
+
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
 }
 
