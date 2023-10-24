@@ -41,11 +41,11 @@
     font-size: 1.5em;
     text-align: center;
     transition: 0.5s;
-    color: #f00;
+    color: var(--color-primary);
 }
 
 .navigation ul li.active a .icon {
-    transform: translateX(-50px); 
+    transform: translateX(-42px); 
 }
 
 .navigation ul li a .text {
@@ -60,12 +60,12 @@
 
 .navigation ul li.active a .text {
     opacity: 1;
-    transform: translateX(10px);
+    transform: translateX(20px);
 }
 
 .indicator {
     position: absolute;
-    left: -50%;
+    left: -41%;
     width: 70px;
     height: 70px;
     background: var(--color-secondary);
@@ -74,3 +74,26 @@
     transition: 0.5s;
 }
 
+.indicator::before {
+    content: '';
+    position: absolute;
+    top: -21px;
+    left: 52%;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-bottom-left-radius: 20px;
+    box-shadow: -10px 0px 0 0 var(--color-primary);
+}
+
+.indicator::after {
+    content: '';
+    position: absolute;
+    bottom: -21px;
+    left: 52%;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: -10px 0px 0 0 var(--color-primary);
+}
