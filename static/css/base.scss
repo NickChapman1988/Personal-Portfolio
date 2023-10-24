@@ -20,45 +20,14 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 1.1rem;
     color: var(--color-black);
-    transition: all .4s ease-in-out;
 }
 
-header {
-    height: 100vh;
-    color: var(--color-black);
-    overflow: hidden;
-}
+//
 
-section {
+header, section {
     min-height: 100vh;
     width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 3rem 18rem;
-    transform: transateY(-100%) scale(0);
-    transition: all .4s ease-in-out;
-    background-color: var(--color-primary);
-}
-
-#home, #about, #portfolio, #contact {
-    display: none;
-    transform: translateY(0) scale(1);
-}
-
-#home {
-    background-color: blue;
-}
-#about {
-    background-color: red;
-}
-
-#portfolio {
-    background-color: yellowgreen;
-}
-
-#contact {
-    background-color: aqua;
+    padding: 3rem 18rem;  
 }
 
 nav {
