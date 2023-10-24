@@ -45,6 +45,22 @@ section {
   transform: translateY(0) scale(1);
 }
 
+#home {
+  background-color: blue;
+}
+
+#about {
+  background-color: red;
+}
+
+#portfolio {
+  background-color: yellowgreen;
+}
+
+#contact {
+  background-color: aqua;
+}
+
 nav {
   position: fixed;
   z-index: 1;
