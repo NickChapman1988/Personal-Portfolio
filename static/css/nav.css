@@ -1,5 +1,5 @@
 .navigation {
-    width: 80px;
+    width: 90px;
     height: 320px;
     background: var(--color-tertiary);
     position: relative;
@@ -45,7 +45,7 @@
 }
 
 .navigation ul li.active a .icon {
-    transform: translateX(-70px); 
+    transform: translateX(-50px); 
 }
 
 .navigation ul li a .text {
@@ -62,3 +62,15 @@
     opacity: 1;
     transform: translateX(10px);
 }
+
+.indicator {
+    position: absolute;
+    left: -50%;
+    width: 70px;
+    height: 70px;
+    background: var(--color-secondary);
+    border-radius: 50%;
+    border: 6px solid  var(--color-primary);
+    transition: 0.5s;
+}
+
