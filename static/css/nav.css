@@ -1,5 +1,5 @@
 .navigation {
-    width: 90px;
+    width: 80px;
     height: 320px;
     background: var(--color-tertiary);
     position: relative;
@@ -18,8 +18,8 @@
 .navigation ul li {
     position: relative;
     list-style: none;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     z-index: 1;
 }
 
@@ -41,5 +41,24 @@
     font-size: 1.5em;
     text-align: center;
     transition: 0.5s;
+    color: #f00;
+}
+
+.navigation ul li.active a .icon {
+    transform: translateX(-70px); 
+}
+
+.navigation ul li a .text {
+    position: absolute;
     color: var(--color-primary);
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.navigation ul li.active a .text {
+    opacity: 1;
+    transform: translateX(10px);
 }
