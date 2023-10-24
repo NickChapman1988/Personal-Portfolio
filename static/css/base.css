@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Franklin:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Franklin:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -82,4 +82,17 @@ header {
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
+}
+.header-content .right-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 18rem;
+}
+.header-content .right-header .hello {
+  font-size: 3rem;
+}
+.header-content .right-header .hello .name {
+  color: var(--color-secondary);
+  font-family: "Clicker Script", cursive;
 }/*# sourceMappingURL=base.css.map */
