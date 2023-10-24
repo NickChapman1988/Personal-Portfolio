@@ -1,0 +1,11 @@
+.navigation {
+    width: 90px;
+    height: 330px;
+    background: var(--color-tertiary);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
