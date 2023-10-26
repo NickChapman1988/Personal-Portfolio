@@ -222,4 +222,36 @@ header {
   flex: 0 0 40%;
   max-width: 40%;
   margin-top: 2rem;
+}
+.about-container .skills .skill-item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.about-container .skills .skill-item h5 {
+  line-height: 40px;
+  font-weight: 700;
+}
+.about-container .skills .skill-item .progress {
+  background-color: var(--color-light-grey);
+  height: 20px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.about-container .skills .skill-item .progress .progress-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 10px;
+  background-color: var(--color-secondary);
+}
+.about-container .skills .skill-item .progress .skill-level {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+  color: var(--color-primary);
 }/*# sourceMappingURL=base.css.map */

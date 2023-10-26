@@ -227,6 +227,38 @@ header {
     .skills {
         flex: 0 0 40%;
         max-width: 40%;
-        margin-top: 2rem
+        margin-top: 2rem;
+        .skill-item {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 30px;
+            h5 {
+                line-height: 40px;
+                font-weight: 700;
+            }
+            .progress {
+                background-color: var(--color-light-grey);
+                height: 20px;
+                border-radius: 10px;
+                width: 100%;
+                position: relative;
+                .progress-in {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    border-radius: 10px;
+                    background-color: var(--color-secondary);
+                }
+                .skill-level {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-weight: 700;
+                    color: var(--color-primary);
+                }    
+            }
+        }
     }
 }
