@@ -199,10 +199,10 @@ header {
 .about-container .personal-info {
   flex: 0 0 60%;
   max-width: 60%;
-  background-color: red;
+  margin-top: 2rem;
 }
 .about-container .skills {
   flex: 0 0 40%;
   max-width: 40%;
-  background-color: blue;
+  margin-top: 2rem;
 }/*# sourceMappingURL=base.css.map */
