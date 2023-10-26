@@ -30,9 +30,8 @@ section {
 nav {
   position: fixed;
   z-index: 1;
-  top: 50%;
+  top: 1%;
   right: 1%;
-  transform: translateY(-50%);
 }
 
 .cursive {
