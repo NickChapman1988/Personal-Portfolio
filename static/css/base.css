@@ -65,14 +65,14 @@ header {
   left: 0;
   top: 0;
   z-index: -1;
-  -webkit-clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-          clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 60% 0, 95% 100%, 0% 100%);
+          clip-path: polygon(0 0, 60% 0, 95% 100%, 0% 100%);
 }
 .header-content .left-header .image {
   border-radius: 20px;
   height: 90%;
   width: 68%;
-  margin-left: 4rem;
+  margin-left: 4em;
   background-color: var(--color-primary);
   transition: all 0.4s ease-in-out;
 }
@@ -92,6 +92,8 @@ header {
   flex-direction: column;
   justify-content: center;
   padding-right: 10rem;
+  margin-left: 1rem;
+  margin-top: 75px;
 }
 .header-content .right-header .hello {
   font-size: 3rem;
@@ -104,7 +106,7 @@ header {
   color: var(--color-secondary);
 }
 .header-content .right-header p {
-  margin: 1.5rem 0 70px;
+  margin: 1.5rem 0;
   line-height: 2rem;
 }
 
@@ -157,6 +159,7 @@ header {
 /* 'About' section */
 /* .main-title {
     text-align: center;
+    margin-top: 70px;
     h2 {
         position: relative;
         text-transform: uppercase;

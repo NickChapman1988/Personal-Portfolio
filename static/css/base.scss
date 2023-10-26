@@ -30,7 +30,6 @@ section {
 }
 
 nav {
-    //margin: auto;
     position: fixed;
     z-index: 1;
     top: 1%;
@@ -67,13 +66,13 @@ header {
             left: 0;
             top: 0;
             z-index: -1;
-            clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+            clip-path: polygon(0 0, 60% 0, 95% 100%, 0% 100%);
         }
         .image {
             border-radius: 20px;
             height: 90%;
             width: 68%;
-            margin-left: 4rem;
+            margin-left: 4em;
             background-color: var(--color-primary);
             transition: all .4s ease-in-out;
             img {
@@ -94,6 +93,8 @@ header {
         flex-direction: column;
         justify-content: center;
         padding-right: 10rem;
+        margin-left: 1rem;
+        margin-top: 75px;
         .hello {
             font-size: 3rem;
         }
@@ -105,7 +106,7 @@ header {
             color: var(--color-secondary);
         }
         p {
-            margin: 1.5rem 0 70px;
+            margin: 1.5rem 0;
             line-height: 2rem;
         }
     }
@@ -163,6 +164,7 @@ header {
 
 /* .main-title {
     text-align: center;
+    margin-top: 70px;
     h2 {
         position: relative;
         text-transform: uppercase;
