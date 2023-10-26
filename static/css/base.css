@@ -200,7 +200,7 @@ header {
 }
 .about-container .personal-info {
   flex: 0 0 60%;
-  max-width: 60%;
+  max-width: 100%;
   margin-top: 2rem;
 }
 .about-container .personal-info .info-container {
@@ -210,7 +210,7 @@ header {
 }
 .about-container .personal-info .info-item {
   flex: 0 0 50%;
-  max-width: 50%;
+  max-width: 100%;
   padding: 10px 0;
 }
 .about-container .personal-info .info-item p {
@@ -221,7 +221,7 @@ header {
 }
 .about-container .skills {
   flex: 0 0 40%;
-  max-width: 40%;
+  max-width: 100%;
   margin-top: 2rem;
 }
 .about-container .skills .skill-item {
