@@ -24,7 +24,6 @@ body {
 section {
   min-height: 100vh;
   width: 100%;
-  padding: 3rem 18rem;
 }
 
 nav {
@@ -72,7 +71,7 @@ header {
   border-radius: 20px;
   height: 90%;
   width: 68%;
-  margin-left: 4em;
+  margin-left: 2em;
   background-color: var(--color-primary);
   transition: all 0.4s ease-in-out;
 }
@@ -157,29 +156,29 @@ header {
 }
 
 /* 'About' section */
-/* .main-title {
-    text-align: center;
-    margin-top: 70px;
-    h2 {
-        position: relative;
-        text-transform: uppercase;
-        font-size: 4rem;
-        font-weight: 700;
-        .bg-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            color: var(--color-grey-5);
-            transition: all .4s ease-in-out;
-            z-index: -1;
-            transform: translate(-50%, -50%);
-            font-weight: 800;
-            font-size: 6.3rem;
-        } 
-    }
+.main-title {
+  text-align: center;
+  margin-top: 70px;
+}
+.main-title h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  /*.bg-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: var(--color-grey-5);
+      transition: all .4s ease-in-out;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      font-weight: 800;
+      font-size: 6.3rem;
+  } */
 }
 
-.about-container {
+/*.about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 3.5rem 0 5rem;
