@@ -186,19 +186,29 @@ header {
     .about-content {
         flex: 0 0 100%;
         max-width: 100%;
+        .about-text {
+            flex: 0 0 100%;
+            h3 {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+            span {
+                color: var(--color-secondary);
+            }
+            p {
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
     }
-}
-
-.about-text {
-    h3 {
-        font-size: 24px;
-        margin-bottom: 15px;
+    .personal-info {
+        flex: 0 0 60%;
+        max-width: 60%;
+        background-color: red;
     }
-    span {
-        color: var(--color-secondary);
-    }
-    p {
-        font-size: 16px;
-        line-height: 25px;
+    .skills {
+        flex: 0 0 40%;
+        max-width: 40%;
+        background-color: blue;
     }
 }
