@@ -222,7 +222,7 @@ header {
 .about-container .skills {
   flex: 0 0 40%;
   max-width: 100%;
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 .about-container .skills .skill-item {
   flex: 0 0 100%;
