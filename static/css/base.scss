@@ -222,6 +222,13 @@ header {
             span {
                 font-weight: 400;
             }
+            a {
+                text-decoration: none;
+                color: var(--color-secondary);
+                &:hover {
+                    color: var(--color-tertiary)
+                }    
+            }
         }
     }
     .skills {

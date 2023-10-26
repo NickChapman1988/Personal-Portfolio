@@ -219,6 +219,13 @@ header {
 .about-container .personal-info .info-item span {
   font-weight: 400;
 }
+.about-container .personal-info .info-item a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+.about-container .personal-info .info-item a:hover {
+  color: var(--color-tertiary);
+}
 .about-container .skills {
   flex: 0 0 40%;
   max-width: 100%;
