@@ -2,8 +2,8 @@
 'Magic Navigation Menu Indicator using HTML, CSS & Javascript | Curve Outside Effects */
 
 .navigation {
-    width: 100px;
-    height: 300px;
+    width: 330px;
+    height: 70px;
     background: var(--color-tertiary);
     position: relative;
     display: flex;
@@ -14,16 +14,15 @@
 
 .navigation ul {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 70px;
+    width: 280px;
 }
 
 .navigation ul li {
     position: relative;
     list-style: none;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     z-index: 1;
 }
 
@@ -32,15 +31,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .navigation ul li a .icon {
     position: relative;
     display: block;
-    line-height: 70px;
+    line-height: 75px;
     font-size: 1.5em;
     text-align: center;
     transition: 0.5s;
@@ -48,7 +48,7 @@
 }
 
 .navigation ul li.active a .icon {
-    transform: translateX(-55px); 
+    transform: translateY(35px); 
 }
 
 .navigation ul li a .text {
@@ -58,17 +58,17 @@
     letter-spacing: 0.05em;
     transition: 0.5s;
     opacity: 0;
-    transform: translateX(20px);
+    transform: translateY(-40px);
 }
 
 .navigation ul li.active a .text {
     opacity: 1;
-    transform: translateX(15px);
+    transform: translateY(-20px);
 }
 
 .indicator {
     position: absolute;
-    left: -41%;
+    top: 50%;
     width: 70px;
     height: 70px;
     background: var(--color-secondary);
@@ -80,36 +80,36 @@
 .indicator::before {
     content: '';
     position: absolute;
-    top: -20px;
-    left: 60%;
+    bottom: 50%;
+    left: -22px;
     width: 20px;
     height: 20px;
     background: transparent;
-    border-bottom-left-radius: 20px;
-    box-shadow: -10px 1px 0 0 var(--color-primary);
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 10px 0 0 var(--color-primary);
 }
 
 .indicator::after {
     content: '';
     position: absolute;
-    bottom: -20px;
-    left: 60%;
+    bottom: 50%;
+    right: -22px;
     width: 20px;
     height: 20px;
     background: transparent;
-    border-top-left-radius: 20px;
-    box-shadow: -10px -1px 0 0 var(--color-primary);
+    border-bottom-left-radius: 20px;
+    box-shadow: -1px 10px 0 0 var(--color-primary);
 }
 
 .navigation ul li:nth-child(1).active ~ .indicator {
-    transform: translateY(calc(60px * 0));
+    transform: translateX(calc(70px * 0));
 }
 .navigation ul li:nth-child(2).active ~ .indicator {
-    transform: translateY(calc(60px * 1));
+    transform: translateX(calc(70px * 1));
 }
 .navigation ul li:nth-child(3).active ~ .indicator {
-    transform: translateY(calc(60px * 2));
+    transform: translateX(calc(70px * 2));
 }
 .navigation ul li:nth-child(4).active ~ .indicator {
-    transform: translateY(calc(60px * 3));
+    transform: translateX(calc(70px * 3));
 }
