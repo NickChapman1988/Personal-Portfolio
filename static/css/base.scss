@@ -47,6 +47,17 @@ nav {
     background-color: transparent;
 }
 
+.main-title {
+    text-align: center;
+    margin-top: 70px;
+    h2 {
+        position: relative;
+        text-transform: uppercase;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+} 
+
 /* Buttons */
 
 .btn-container {
@@ -168,17 +179,6 @@ header {
 }
 
 /* 'About' section */
-
- .main-title {
-    text-align: center;
-    margin-top: 70px;
-    h2 {
-        position: relative;
-        text-transform: uppercase;
-        font-size: 4rem;
-        font-weight: 700;
-    }
-} 
 
 .about-container {
     display: flex;
