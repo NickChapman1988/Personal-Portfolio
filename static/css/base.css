@@ -230,14 +230,19 @@ header {
   color: var(--color-tertiary);
 }
 .about-container .skills {
-  flex: 0 0 40%;
+  flex: 1 0 55%;
   max-width: 100%;
   margin: 2rem 0;
 }
+.about-container .skills .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
 .about-container .skills .skill-item {
-  flex: 0 0 100%;
+  flex: 1 1 48%;
   max-width: 100%;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 .about-container .skills .skill-item h5 {
   line-height: 20px;
