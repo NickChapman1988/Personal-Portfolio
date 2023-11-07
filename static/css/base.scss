@@ -185,8 +185,9 @@ header {
     flex-wrap: wrap;
     position: relative;
     margin: 0 1rem;
+    gap: 20px;
     .about-content {
-        flex: 0 0 100%;
+        flex: 1 0 55%;
         max-width: 100%;
         .about-text {
             flex: 0 0 100%;
@@ -206,7 +207,7 @@ header {
         }
     }
     .personal-info {
-        flex: 0 0 60%;
+        flex: 1 1 25%;
         max-width: 100%;
         margin-top: 2rem;
         .info-container {
@@ -215,7 +216,7 @@ header {
             position: relative;
         }
         .info-item {
-            flex: 0 0 50%;
+            flex: 1 0 50%;
             max-width: 100%;
             padding: 10px 0;
             p {
