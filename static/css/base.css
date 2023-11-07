@@ -190,6 +190,7 @@ header {
 .about-container .about-content .about-text h3 {
   font-size: 24px;
   margin-bottom: 15px;
+  text-align: center;
 }
 .about-container .about-content .about-text span {
   color: var(--color-secondary);
@@ -197,6 +198,7 @@ header {
 .about-container .about-content .about-text p {
   font-size: 16px;
   line-height: 25px;
+  text-align: justify;
 }
 .about-container .personal-info {
   flex: 0 0 60%;
