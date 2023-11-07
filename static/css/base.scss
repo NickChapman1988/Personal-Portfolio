@@ -190,11 +190,9 @@ header {
         flex: 1 0 55%;
         max-width: 100%;
         .about-text {
-            flex: 0 0 100%;
             h3 {
                 font-size: 24px;
                 margin-bottom: 15px;
-                text-align: center;
             }
             span {
                 color: var(--color-secondary);
@@ -235,7 +233,7 @@ header {
         }
     }
     .skills {
-        flex: 1 0 55%;
+        flex: 1 0 100%;
         max-width: 100%;
         margin: 2rem 0;
         .skills-container {
