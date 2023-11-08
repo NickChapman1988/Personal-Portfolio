@@ -308,7 +308,7 @@ header {
             .exp-icon {
                 position: absolute;
                 left: -5px;
-                top: -10px;
+                top: 0;
                 color: var(--color-primary);
                 background-color: var(--color-secondary);
                 border-radius: 50%;
@@ -319,13 +319,16 @@ header {
                 justify-content: center;
             }
             .job-role {
-                font-size: 1rem;
-                
+                font-size: 1rem;   
             }
             .job-desc, .exp-date {
                 font-size: 0.8rem;
                 padding: 5px;
                 text-align: justify;
+            }
+            .exp-date {
+                text-transform: uppercase;
+                font-weight: 700;
             }
         }
     }

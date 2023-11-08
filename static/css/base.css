@@ -304,7 +304,7 @@ header {
 .about-container .experience .exp-item .exp-icon {
   position: absolute;
   left: -5px;
-  top: -10px;
+  top: 0;
   color: var(--color-primary);
   background-color: var(--color-secondary);
   border-radius: 50%;
@@ -321,4 +321,8 @@ header {
   font-size: 0.8rem;
   padding: 5px;
   text-align: justify;
+}
+.about-container .experience .exp-item .exp-date {
+  text-transform: uppercase;
+  font-weight: 700;
 }/*# sourceMappingURL=base.css.map */
