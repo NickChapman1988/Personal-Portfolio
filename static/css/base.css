@@ -183,7 +183,7 @@ header {
 }
 .about-container .about-content {
   flex: 1 0 55%;
-  max-width: 100%;
+  max-width: 98%;
 }
 .about-container .about-content .about-text h3 {
   font-size: 24px;
@@ -228,7 +228,11 @@ header {
 .about-container .skills {
   flex: 1 0 100%;
   max-width: 100%;
-  margin: 2rem 0;
+  margin: 1rem 0;
+}
+.about-container .skills .skills-title {
+  text-align: center;
+  padding: 0.5rem 0;
 }
 .about-container .skills .skills-container {
   display: flex;

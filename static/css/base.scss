@@ -188,7 +188,7 @@ header {
     gap: 20px;
     .about-content {
         flex: 1 0 55%;
-        max-width: 100%;
+        max-width: 98%;
         .about-text {
             h3 {
                 font-size: 24px;
@@ -235,7 +235,11 @@ header {
     .skills {
         flex: 1 0 100%;
         max-width: 100%;
-        margin: 2rem 0;
+        margin: 1rem 0;
+        .skills-title {
+            text-align: center;
+            padding: 0.5rem 0;
+        }
         .skills-container {
             display: flex;
             flex-wrap: wrap;
