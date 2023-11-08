@@ -33,6 +33,11 @@ nav {
   right: 1%;
 }
 
+li::marker {
+  color: var(--color-secondary);
+  font-size: 1.5em;
+}
+
 .cursive {
   color: var(--color-secondary);
   font-family: "Clicker Script", cursive;
