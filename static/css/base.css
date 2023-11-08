@@ -60,6 +60,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-self: flex-start;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .main-btn {
@@ -271,4 +273,39 @@ header {
   font-size: 14px;
   font-weight: 700;
   color: var(--color-primary);
+}
+.about-container .experience {
+  flex: 1 0 50%;
+  max-width: 100%;
+}
+.about-container .experience .exp-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.about-container .experience .exp-title {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.about-container .experience .exp-item {
+  flex: 1 0 100%;
+  max-width: 100%;
+  margin: 5px;
+  padding-left: 10px;
+}
+.about-container .experience .exp-item h5 {
+  line-height: 20px;
+  font-weight: 700;
+}
+.about-container .experience .exp-item .exp-icon {
+  position: absolute;
+  left: -5px;
+}
+.about-container .experience .exp-item .job-role {
+  font-size: 1rem;
+}
+.about-container .experience .exp-item .job-desc, .about-container .experience .exp-item .exp-date {
+  font-size: 0.8rem;
+  padding: 5px;
+  text-align: justify;
 }/*# sourceMappingURL=base.css.map */
