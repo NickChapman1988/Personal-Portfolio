@@ -293,16 +293,16 @@ header {
         .exp-container {
             display: flex;
             flex-wrap: wrap;
-            position: relative;
         }
         .exp-title {
             text-align: center;
             padding: 0.5rem 0;
         }
         .exp-item {
+            position: relative;
             flex: 1 1 100%;
             max-width: 100%;
-            margin: 5px;
+            margin: 20px 5px;
             padding-left: 50px;
             h5 {
                 line-height: 20px;

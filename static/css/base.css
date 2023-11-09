@@ -192,7 +192,7 @@ header {
   gap: 20px;
 }
 .about-container .about-content {
-  flex: 1 0 55%;
+  flex: 1 1 55%;
   max-width: 98%;
 }
 .about-container .about-content .about-text h3 {
@@ -218,7 +218,7 @@ header {
   position: relative;
 }
 .about-container .personal-info .info-item {
-  flex: 1 0 50%;
+  flex: 1 1 50%;
   max-width: 100%;
   padding: 10px 0;
 }
@@ -283,22 +283,22 @@ header {
   color: var(--color-primary);
 }
 .about-container .experience {
-  flex: 1 0 50%;
+  flex: 1 1 50%;
   max-width: 100%;
 }
 .about-container .experience .exp-container {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
 }
 .about-container .experience .exp-title {
   text-align: center;
   padding: 0.5rem 0;
 }
 .about-container .experience .exp-item {
-  flex: 1 0 100%;
+  position: relative;
+  flex: 1 1 100%;
   max-width: 100%;
-  margin: 5px;
+  margin: 20px 5px;
   padding-left: 50px;
 }
 .about-container .experience .exp-item h5 {
