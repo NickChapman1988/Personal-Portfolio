@@ -289,6 +289,11 @@ header {
 .about-container .timeline .tl-container {
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
+  border: 1px solid var(--color-secondary);
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 .about-container .timeline .tl-title {
   text-align: center;
@@ -307,13 +312,13 @@ header {
 }
 .about-container .timeline .tl-item .tl-icon {
   position: absolute;
-  left: -5px;
+  left: 0;
   top: 0;
   color: var(--color-primary);
   background-color: var(--color-secondary);
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
