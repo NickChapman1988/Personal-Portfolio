@@ -290,7 +290,7 @@ header {
 .about-container .timeline .tl-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: var(--color-white);
   border: 1px solid var(--color-secondary);
   border-radius: 10px;
   width: 100%;
@@ -353,38 +353,69 @@ header {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  gap: 15px;
+  gap: 10px;
   justify-content: space-evenly;
 }
 .portfolio-container .portfolio-content .port-item {
+  position: relative;
   display: flex;
   flex: 0 0 25%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.portfolio-container .portfolio-content .port-item .port-title {
-  margin-top: 5px;
-}
-.portfolio-container .portfolio-content .port-item .github-link {
-  text-decoration: none;
-  margin-top: 10px;
-  padding: 5px;
-}
-.portfolio-container .portfolio-content .port-item .github-link .github-icon {
-  font-size: 2rem;
-  color: var(--color-secondary);
-}
-.portfolio-container .portfolio-content .port-item .github-link .github-icon:hover {
-  color: var(--color-tertiary);
-}
-
-.port-img {
+.portfolio-container .portfolio-content .port-item .port-img {
+  border-radius: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
   vertical-align: middle;
   height: auto;
   font-style: italic;
+}
+.portfolio-container .portfolio-content .port-item .hover-items {
+  width: 100%;
+  height: 100%;
+  background: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-container .portfolio-content .port-item .hover-items .port-title {
+  font-size: 1rem;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+}
+.portfolio-container .portfolio-content .port-item .hover-items .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-secondary);
+}
+.portfolio-container .portfolio-content .port-item .hover-items .icons a {
+  text-decoration: none;
+}
+.portfolio-container .portfolio-content .port-item .hover-items .icons .live-btn, .portfolio-container .portfolio-content .port-item .hover-items .icons i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  height: 50px;
+  cursor: pointer;
+  margin: 0 1rem;
+  transition: all 0.4s ease-in-out;
+}
+.portfolio-container .portfolio-content .port-item .hover-items .icons .live-btn {
+  width: 150px;
+  border-radius: 25px;
+}
+.portfolio-container .portfolio-content .port-item .hover-items .icons i {
+  width: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=base.css.map */
