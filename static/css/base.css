@@ -282,30 +282,30 @@ header {
   font-weight: 700;
   color: var(--color-primary);
 }
-.about-container .experience {
-  flex: 1 1 50%;
+.about-container .timeline {
+  flex: 1 1 48%;
   max-width: 100%;
 }
-.about-container .experience .exp-container {
+.about-container .timeline .tl-container {
   display: flex;
   flex-wrap: wrap;
 }
-.about-container .experience .exp-title {
+.about-container .timeline .tl-title {
   text-align: center;
   padding: 0.5rem 0;
 }
-.about-container .experience .exp-item {
+.about-container .timeline .tl-item {
   position: relative;
   flex: 1 1 100%;
   max-width: 100%;
   margin: 20px 5px;
   padding-left: 50px;
 }
-.about-container .experience .exp-item h5 {
+.about-container .timeline .tl-item h5 {
   line-height: 20px;
   font-weight: 700;
 }
-.about-container .experience .exp-item .exp-icon {
+.about-container .timeline .tl-item .tl-icon {
   position: absolute;
   left: -5px;
   top: 0;
@@ -318,15 +318,15 @@ header {
   align-items: center;
   justify-content: center;
 }
-.about-container .experience .exp-item .job-role {
+.about-container .timeline .tl-item .tl-role {
   font-size: 1rem;
 }
-.about-container .experience .exp-item .job-desc, .about-container .experience .exp-item .exp-date {
+.about-container .timeline .tl-item .tl-desc, .about-container .timeline .tl-item .tl-date {
   font-size: 0.8rem;
   padding: 5px;
   text-align: justify;
 }
-.about-container .experience .exp-item .exp-date {
+.about-container .timeline .tl-item .tl-date {
   text-transform: uppercase;
   font-weight: 700;
 }/*# sourceMappingURL=base.css.map */

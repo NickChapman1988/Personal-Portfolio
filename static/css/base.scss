@@ -287,18 +287,18 @@ header {
             }
         }
     }
-    .experience {
-        flex: 1 1 50%;
+    .timeline {
+        flex: 1 1 48%;
         max-width: 100%;
-        .exp-container {
+        .tl-container {
             display: flex;
             flex-wrap: wrap;
         }
-        .exp-title {
+        .tl-title {
             text-align: center;
             padding: 0.5rem 0;
         }
-        .exp-item {
+        .tl-item {
             position: relative;
             flex: 1 1 100%;
             max-width: 100%;
@@ -308,7 +308,7 @@ header {
                 line-height: 20px;
                 font-weight: 700;
             }
-            .exp-icon {
+            .tl-icon {
                 position: absolute;
                 left: -5px;
                 top: 0;
@@ -321,15 +321,15 @@ header {
                 align-items: center;
                 justify-content: center;
             }
-            .job-role {
+            .tl-role {
                 font-size: 1rem;   
             }
-            .job-desc, .exp-date {
+            .tl-desc, .tl-date {
                 font-size: 0.8rem;
                 padding: 5px;
                 text-align: justify;
             }
-            .exp-date {
+            .tl-date {
                 text-transform: uppercase;
                 font-weight: 700;
             }
