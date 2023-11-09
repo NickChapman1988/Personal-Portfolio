@@ -43,6 +43,10 @@ li::marker {
   font-family: "Clicker Script", cursive;
 }
 
+.text-blue {
+  color: var(--color-secondary);
+}
+
 .spacer {
   height: 70px;
   background-color: transparent;
@@ -198,9 +202,6 @@ header {
 .about-container .about-content .about-text h3 {
   font-size: 24px;
   margin-bottom: 15px;
-}
-.about-container .about-content .about-text span {
-  color: var(--color-secondary);
 }
 .about-container .about-content .about-text p {
   font-size: 16px;

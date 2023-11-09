@@ -45,6 +45,10 @@ li::marker {
     font-family: 'Clicker Script', cursive;
 }
 
+.text-blue {
+    color: var(--color-secondary);
+}
+
 .spacer {
     height: 70px;
     background-color: transparent;
@@ -201,9 +205,6 @@ header {
             h3 {
                 font-size: 24px;
                 margin-bottom: 15px;
-            }
-            span {
-                color: var(--color-secondary);
             }
             p {
                 font-size: 16px;
