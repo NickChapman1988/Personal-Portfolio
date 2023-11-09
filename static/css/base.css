@@ -329,7 +329,7 @@ header {
 }
 .about-container .timeline .tl-item .tl-desc, .about-container .timeline .tl-item .tl-date {
   font-size: 0.8rem;
-  padding: 5px;
+  padding: 2px;
   text-align: justify;
 }
 .about-container .timeline .tl-item .tl-date {
@@ -344,22 +344,47 @@ header {
 }
 
 .portfolio-container {
-  margin: 0 3rem;
-}
-
-.portfolio-content {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  gap: 20px;
+  margin: 0 1rem;
 }
-.portfolio-content .port-item {
+.portfolio-container .portfolio-content {
   display: flex;
-  flex: 1 1 20%;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+.portfolio-container .portfolio-content .port-item {
+  display: flex;
+  flex: 0 0 25%;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
   border-radius: 10px;
   background-color: white;
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.portfolio-container .portfolio-content .port-item:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.portfolio-container .portfolio-content .port-item .github-link {
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 5px;
+}
+.portfolio-container .portfolio-content .port-item .github-link .github-icon {
+  font-size: 2rem;
+  color: var(--color-secondary);
+}
+.portfolio-container .portfolio-content .port-item .github-link .github-icon:hover {
+  color: var(--color-tertiary);
 }
 
 .port-img {
