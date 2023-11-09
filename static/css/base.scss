@@ -195,7 +195,7 @@ header {
     margin: 0 1rem;
     gap: 20px;
     .about-content {
-        flex: 1 0 55%;
+        flex: 1 1 55%;
         max-width: 98%;
         .about-text {
             h3 {
@@ -222,7 +222,7 @@ header {
             position: relative;
         }
         .info-item {
-            flex: 1 0 50%;
+            flex: 1 1 50%;
             max-width: 100%;
             padding: 10px 0;
             p {
@@ -300,7 +300,7 @@ header {
             padding: 0.5rem 0;
         }
         .exp-item {
-            flex: 1 0 100%;
+            flex: 1 1 100%;
             max-width: 100%;
             margin: 5px;
             padding-left: 50px;
