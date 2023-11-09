@@ -366,13 +366,9 @@ header {
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-  transform: perspective(1px) translateZ(0);
-  transition-duration: 0.3s;
-  transition-property: transform;
 }
-.portfolio-container .portfolio-content .port-item:hover {
-  transform: scale(1.1);
-  z-index: 1;
+.portfolio-container .portfolio-content .port-item .port-title {
+  margin-top: 5px;
 }
 .portfolio-container .portfolio-content .port-item .github-link {
   text-decoration: none;
