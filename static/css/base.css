@@ -429,4 +429,24 @@ header {
   width: 50px;
   border-radius: 50%;
   font-size: 1.5rem;
+}
+
+/* Contact section */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 1rem;
+}
+.contact-container .contact-content {
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: space-evenly;
+}
+.contact-container .contact-content .contact-item .contact-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }/*# sourceMappingURL=base.css.map */
