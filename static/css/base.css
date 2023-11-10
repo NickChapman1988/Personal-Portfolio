@@ -483,7 +483,24 @@ header {
   display: flex;
   flex: 1 0 100%;
   justify-content: center;
+  align-items: center;
   margin: 2rem 0;
+  flex-direction: column;
+}
+.contact-container .form-container #message-success {
+  height: 70px;
+  width: 250px;
+}
+.contact-container .form-container #message-success .message-success {
+  display: flex;
+  height: 70px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: var(--color-white);
+  color: var(--color-secondary);
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
 }
 .contact-container .form-container .contact-form {
   display: flex;

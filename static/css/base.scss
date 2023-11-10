@@ -489,7 +489,24 @@ header {
         display: flex;
         flex: 1 0 100%;
         justify-content: center;
+        align-items: center;
         margin: 2rem 0;
+        flex-direction: column;
+        #message-success {
+            height: 70px;
+            width: 250px;
+            .message-success {
+                display: flex;
+                height: 70px;
+                width: 250px;
+                border-radius: 15px;
+                background-color: var(--color-white);
+                color: var(--color-secondary);
+                font-weight: 700;
+                justify-content: center;
+                align-items: center;
+            }
+        }
         .contact-form {
             display: flex;
             margin: 0 2rem;

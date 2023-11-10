@@ -13,7 +13,7 @@ function sendMail(contactForm) {
 
             // Clear message-success after 5 seconds //
             setTimeout(()=>{
-                document.getElementById("message-success").innerHTML = "";
+               document.getElementById("message-success").innerHTML = "";
             }, 5000);
 
             // Blank form fields after submit //
