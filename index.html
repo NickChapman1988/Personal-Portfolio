@@ -11,6 +11,15 @@
         
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <!-- EmailJS scripts -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init('pRF1Ii_QkrddJC6e3');
+            })();
+        </script>
         
     </head>
     <body>
@@ -440,16 +449,16 @@
                     </div>
                     <!-- Contact form -->
                     <div class="form-container">
-                        <form action="" class="contact-form">
+                        <form onsubmit="return sendMail(this);" name="contact-form" class="contact-form" id="contact-form">
                             <div class="input-control ic-2">
-                                <input type="text" required placeholder="Your Name">
-                                <input type="email" required placeholder="Your Email">
+                                <input type="text" required name="user_name" placeholder="Your Name">
+                                <input type="email" required name="user_email" placeholder="Your Email">
                             </div>
                             <div class="input-control">
                                 <input type="text" required placeholder="Subject">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                <textarea name="" id="" cols="30" rows="10" name="message" placeholder="Message"></textarea>
                             </div>
                             <div class="btn-container submit-btn">
                                 <a href="" class="main-btn">
@@ -466,5 +475,6 @@
         </main>
 
         <script src="static/js/nav.js"></script>
+        <script src="static/js/sendEmail.js"></script>
     </body>
 </html>
