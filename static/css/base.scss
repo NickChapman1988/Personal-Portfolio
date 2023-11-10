@@ -484,4 +484,29 @@ header {
             }
         }
     }
+    .contact-form {
+        display: flex;
+        margin: 0 2rem;
+        flex-direction: column;
+        .input-control{
+            margin: 1.5rem 0;
+            input, textarea {
+                border-radius: 30px;
+                font: inherit;
+                padding: .8rem 1.1rem;
+                outline: none;
+                border: none;
+                background-color: var(--color-white);
+                width: 100%;
+                color: var(--color-tertiary);
+                resize: none;
+            }
+        }
+        .ic-2 {
+            display: flex;
+            :last-child{
+                margin-left: 1.5rem;
+            }
+        }
+    }
 }
