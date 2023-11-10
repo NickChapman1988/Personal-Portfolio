@@ -449,4 +449,32 @@ header {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+.contact-container .contact-content .contact-item .contact-link:hover .text {
+  opacity: 1;
+  transform: translateY(70px);
+}
+.contact-container .contact-content .contact-item .contact-link:hover .subtext {
+  opacity: 1;
+  transform: translateY(100px);
+}
+.contact-container .contact-content .contact-item .contact-link .text, .contact-container .contact-content .contact-item .contact-link .subtext {
+  position: absolute;
+  color: var(--color-secondary);
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.contact-container .contact-content .contact-item .contact-link .icon {
+  display: flex;
+  font-size: 1.5em;
+  margin: 1rem;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=base.css.map */
