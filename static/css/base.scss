@@ -16,11 +16,16 @@
     --color-light-grey: #c0c1be;
 }
 
+.dark-mode {
+    --color-primary: #14161a;
+    --color-tertiary: #f7f7f7;    
+}
+
 body { 
     background-color: var(--color-primary);
     font-family: 'Libre Franklin', sans-serif;
     font-size: 1.1rem;
-    color: var(--color-black);
+    color: var(--color-tertiary);
 }
 
 section {
@@ -89,11 +94,11 @@ li::marker {
     overflow-x: hidden; 
     text-decoration: none;
     .btn-text {
-        padding: 0 1rem;    
+        padding: 0 1rem; 
     }
     .btn-icon {
         background-color: var(--color-secondary);
-        color: var(--color-primary);
+        color: var(--color-white);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -116,6 +121,30 @@ li::marker {
             background-color: var(--color-secondary);
             transform: translateX(0);
         }
+    }
+}
+
+.theme-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-tertiary);
+    cursor: pointer;
+    position: fixed;
+    top: 2%;
+    right: 360px;
+    z-index: 1;
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    transition: all .1s ease-in-out;
+    &:active {
+        transform: translateY(-5px);
+    }
+    i {
+        color: var(--color-primary);
+        font-size: 1.4rem;
     }
 }
 
@@ -283,7 +312,7 @@ header {
                     transform: translateX(-50%);
                     font-size: 14px;
                     font-weight: 700;
-                    color: var(--color-primary);
+                    color: var(--color-white);
                 }    
             }
         }
@@ -296,6 +325,7 @@ header {
             flex-wrap: wrap;
             background-color: var(--color-white);
             border: 1px solid var(--color-secondary);
+            color: var(--color-black);
             border-radius: 10px;
             width: 100%;
             box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -320,6 +350,7 @@ header {
                 top: 0;
                 color: var(--color-primary);
                 background-color: var(--color-secondary);
+                color: var(--color-white);
                 border-radius: 50%;
                 width: 40px;
                 height: 40px;
@@ -444,6 +475,7 @@ header {
     flex-wrap: wrap;
     position: relative;
     margin: 1rem;
+    justify-content: center;
     .contact-text {
         margin: 3rem;
         text-align: center;
@@ -482,7 +514,7 @@ header {
                 display: flex;
                 font-size: 1.5em;
                 margin: 1rem;
-                color: var(--color-primary);
+                color: var(--color-white);
                 background-color: var(--color-secondary);
                 width: 70px;
                 height: 70px;
