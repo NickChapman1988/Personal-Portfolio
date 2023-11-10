@@ -442,6 +442,7 @@ header {
   display: flex;
   flex: 1 1 100%;
   justify-content: space-evenly;
+  margin-bottom: 4rem;
 }
 .contact-container .contact-content .contact-item .contact-link {
   display: flex;
@@ -478,15 +479,21 @@ header {
   justify-content: center;
   align-items: center;
 }
-.contact-container .contact-form {
+.contact-container .form-container {
+  display: flex;
+  flex: 1 0 100%;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.contact-container .form-container .contact-form {
   display: flex;
   margin: 0 2rem;
   flex-direction: column;
 }
-.contact-container .contact-form .input-control {
+.contact-container .form-container .contact-form .input-control {
   margin: 1.5rem 0;
 }
-.contact-container .contact-form .input-control input, .contact-container .contact-form .input-control textarea {
+.contact-container .form-container .contact-form .input-control input, .contact-container .form-container .contact-form .input-control textarea {
   border-radius: 30px;
   font: inherit;
   padding: 0.8rem 1.1rem;
@@ -497,9 +504,9 @@ header {
   color: var(--color-tertiary);
   resize: none;
 }
-.contact-container .contact-form .ic-2 {
+.contact-container .form-container .contact-form .ic-2 {
   display: flex;
 }
-.contact-container .contact-form .ic-2 :last-child {
+.contact-container .form-container .contact-form .ic-2 :last-child {
   margin-left: 1.5rem;
 }/*# sourceMappingURL=base.css.map */
