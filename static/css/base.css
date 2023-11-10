@@ -501,6 +501,7 @@ header {
   font-weight: 700;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 .contact-container .form-container .contact-form {
   display: flex;
@@ -526,4 +527,10 @@ header {
 }
 .contact-container .form-container .contact-form .ic-2 :last-child {
   margin-left: 1.5rem;
+}
+.contact-container .form-container .contact-form button {
+  font-size: 1.1rem;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 1rem;
 }/*# sourceMappingURL=base.css.map */
