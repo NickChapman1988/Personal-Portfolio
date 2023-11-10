@@ -438,6 +438,13 @@ header {
   position: relative;
   margin: 1rem;
 }
+.contact-container .contact-text {
+  margin: 3rem;
+  text-align: center;
+}
+.contact-container .contact-text p {
+  padding: 1rem;
+}
 .contact-container .contact-content {
   display: flex;
   flex: 1 1 100%;

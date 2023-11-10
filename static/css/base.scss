@@ -444,6 +444,13 @@ header {
     flex-wrap: wrap;
     position: relative;
     margin: 1rem;
+    .contact-text {
+        margin: 3rem;
+        text-align: center;
+        p {
+            padding: 1rem;
+        }
+    }
     .contact-content {
         display: flex;
         flex: 1 1 100%;
