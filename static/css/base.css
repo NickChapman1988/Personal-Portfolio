@@ -577,4 +577,11 @@ header {
   background-color: var(--color-secondary);
   color: var(--color-white);
   padding: 1rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .header-content .right-header {
+    padding: 2rem;
+  }
 }/*# sourceMappingURL=base.css.map */

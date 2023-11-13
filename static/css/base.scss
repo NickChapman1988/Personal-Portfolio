@@ -584,3 +584,12 @@ header {
         }
     }
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 600px){
+    .header-content .right-header {
+        padding: 2rem;
+    }
+}
+
