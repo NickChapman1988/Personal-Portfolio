@@ -12,6 +12,7 @@
     --color-secondary: #228cdb;
     --color-tertiary: #14161a;
     --color-white: #fff;
+    --color-alt: #fff;
     --color-black: #000;
     --color-light-grey: #c0c1be;
 }
@@ -19,6 +20,7 @@
 .dark-mode {
     --color-primary: #14161a;
     --color-tertiary: #f7f7f7;    
+    --color-alt: #343A40;
 }
 
 body { 
@@ -323,9 +325,9 @@ header {
         .tl-container {
             display: flex;
             flex-wrap: wrap;
-            background-color: var(--color-white);
+            background-color: var(--color-alt);
             border: 1px solid var(--color-secondary);
-            color: var(--color-black);
+            color: var(--color-tertiary);
             border-radius: 10px;
             width: 100%;
             box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
