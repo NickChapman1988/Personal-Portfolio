@@ -383,7 +383,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  margin: 0 1rem;
 }
 .portfolio-container .portfolio-content {
   display: flex;
@@ -581,9 +580,6 @@ header {
 
 /* Media Queries */
 @media screen and (max-width: 600px) {
-  body {
-    width: 85%;
-  }
   .header-content {
     grid-template-columns: 1fr;
   }
@@ -591,8 +587,7 @@ header {
     display: none;
   }
   .header-content .left-header .image {
-    margin: 0 auto;
-    width: 90%;
+    display: none;
   }
   .header-content .right-header {
     padding: 2rem;
@@ -602,8 +597,5 @@ header {
   }
   .header-content .right-header .hello {
     font-size: 2.5rem;
-  }
-  .main-content {
-    width: 85%;
   }
 }/*# sourceMappingURL=base.css.map */
