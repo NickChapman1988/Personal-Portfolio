@@ -131,8 +131,8 @@ li::marker {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: var(--color-tertiary);
     cursor: pointer;
@@ -154,9 +154,8 @@ li::marker {
 /* Home section */
 
 header {
-    height: 100vh;
+    min-height: 100vh;
     color: var(--color-tertiary);
-    //overflow: hidden;
 } 
 
 .header-content {
@@ -588,8 +587,33 @@ header {
 /* Media Queries */
 
 @media screen and (max-width: 600px){
-    .header-content .right-header {
-        padding: 2rem;
+
+    body {
+        width: 85%;
+    }
+    .header-content {
+        grid-template-columns: 1fr;
+        .left-header {
+            .bg-shape {
+                display: none;
+            }
+            .image {
+                margin: 0 auto;
+                width: 90%;
+            }
+        }
+        .right-header {
+            padding: 2rem;
+            grid-row: 1;
+            width: 90%;
+            margin: 90px auto 0;
+            .hello {
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .main-content {
+        width: 85%;
     }
 }
 
