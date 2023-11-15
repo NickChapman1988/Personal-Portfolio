@@ -29,6 +29,7 @@ body {
     font-size: 1.1rem;
     color: var(--color-tertiary);
     min-width: fit-content;
+    overflow-x: hidden;
 }
 
 section {
@@ -590,22 +591,18 @@ header {
     .header-content {
         grid-template-columns: 1fr;
         .left-header {
-            .bg-shape {
-                display: none;
-            }
-            .image {
-                display: none
-            }
+            display: none;
         }
         .right-header {
-            padding: 2rem;
-            grid-row: 1;
+            padding: 2rem 0;
             width: 90%;
-            margin: 90px auto 0;
             .hello {
                 font-size: 2.5rem;
             }
         }
+    }
+    .main-content {
+        width: 90%;
     }
 }
 

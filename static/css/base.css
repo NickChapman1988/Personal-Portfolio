@@ -28,6 +28,7 @@ body {
   color: var(--color-tertiary);
   min-width: -moz-fit-content;
   min-width: fit-content;
+  overflow-x: hidden;
 }
 
 section {
@@ -583,19 +584,17 @@ header {
   .header-content {
     grid-template-columns: 1fr;
   }
-  .header-content .left-header .bg-shape {
-    display: none;
-  }
-  .header-content .left-header .image {
+  .header-content .left-header {
     display: none;
   }
   .header-content .right-header {
-    padding: 2rem;
-    grid-row: 1;
+    padding: 2rem 0;
     width: 90%;
-    margin: 90px auto 0;
   }
   .header-content .right-header .hello {
     font-size: 2.5rem;
+  }
+  .main-content {
+    width: 90%;
   }
 }/*# sourceMappingURL=base.css.map */
