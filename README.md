@@ -14,7 +14,12 @@
 
 ## Overview
 
+This is my personal portfolio, designed to showcase work I've done and demonstrate my skills in web development. 
+
 ## Description
+
+My portfolio is a one-page website to showcase my work and skills to recruiters and employers, as well as potential clients for freelance work. It shares relevant information about me and my background, displays examples of past work and has multiple methods of contact for anyone who wants to get in touch.
+
 ## Target Audience
 ## Business Objectives
 ## User Objectives
