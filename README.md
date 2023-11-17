@@ -21,8 +21,22 @@ This is my personal portfolio, designed to showcase work I've done and demonstra
 My portfolio is a one-page website to showcase my work and skills to recruiters and employers, as well as potential clients for freelance work. It shares relevant information about me and my background, displays examples of past work and has multiple methods of contact for anyone who wants to get in touch.
 
 ## Target Audience
+
+The target audience for my personal portfolio is potential employers and recruiters, as well as potential clients, to enable them to see a summary of my skills, background and experience, and view examples of my work.
+
 ## Business Objectives
+
+* To clearly demonstrate my skills and suitablility for job roles, as well as showcase my past work
+* To attract employers and recruiters in order to gain offers of employment
+* To attract potential clients for offers of freelance commission work
+* To provide a personal online space to track and update my progress as a developer
+
 ## User Objectives
+
+* To obtain a clear and concise personal background for a potential employee
+* To accurately assess individual skills and capabilities, combined with relevant experience
+* To view examples of previous work, projects and coding ability
+
 ## User Experience
 ## Structure
 ## Skeleton
