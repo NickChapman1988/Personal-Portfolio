@@ -41,6 +41,32 @@ The target audience for my personal portfolio is potential employers and recruit
 ## Structure
 ## Skeleton
 ## Surface
+
+### Images
+
+Portfolio images generated using [AmIResponsive?](https://ui.dev/amiresponsive) as part of original project submissions. 
+
+### Colours
+
+Colours were largely chosen to present a clean, easily-navigated, professional site, with nods to previous work (I use blue a lot!). Night provides the main font colour. Onyx provides the 'dark mode' background color. French Grey is used as the progress bar background. Seasalt provides the main off-white 'light mode' background colour. White is used where appropriate for fonts, icons and background colour. Tufts Blue is the main accent colour used for buttons, highlight text, borders etc. Dark Cornflower Blue is used as a complimentary colour to the main brand blue, used for hover effects and occasional font colour.
+
+![Image](static/images/portfolio-palette.png)
+
+* Night (#14161A)
+* Onyx (#343A40)
+* French Grey (#C0C1CB)
+* Seasalt (#F7F7F7)
+* White (#FFFFFF)
+* Tufts Blue (#228CDB)
+
+### Typography
+
+[Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?query=Libre+Franklin) was chosen for the main content font, as it is easy to read and has plenty of styling options. [Clicker Script](https://fonts.google.com/specimen/Clicker+Script?query=Clicker+Script) was chosen to generate the cursive text effect. 
+
+### Icons
+
+Appropriate icons across the site were taken from [Font Awesome](https://fontawesome.com/). These add important visual cues for users, especially on mobile devices. 
+
 ## Technologies Used
 
 #### Languages:
