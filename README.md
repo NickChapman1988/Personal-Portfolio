@@ -121,12 +121,22 @@ Appropriate icons across the site were taken from [Font Awesome](https://fontawe
 * [Stack Overflow](https://stackoverflow.com/) - Used for general troubleshooting and examples.
 * [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
 * [Coolors](https://coolors.co/) - Used to help define the site colour scheme.
-* [ami.responsive](http://ami.responsivedesign.is/) - Used to generate multi-device mockup image.
 * [Clippy](https://bennettfeely.com/clippy/) - Used to create polygon clip path
 * [Remove BG](https://www.remove.bg/upload) - Used to remove background from images
 * [amiresponsive](https://ui.dev/amiresponsive) - Used to generate multi-device mockup image.
 
 ## Testing
 ## Deployment
+
+* Go to [GitHub](https://github.com/) and sign in, or sign up for an account.
+* Once a Github account was created, I opened a new repository by clicking the green button "new". To create this project, I used the Code Institute's student 
+[template](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Click on the green "gitpod" button to open [Gitpod](https://gitpod.io/), a cloud-based version control software or IDE, which was used to write all code for this project.
+- It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/NickChapman1988/Personal-Portfolio)
+- Under "Settings", select Pages from the sidebar menu 
+- Under 'Build and Deployment' select "Deploy from a branch" in the Source section, and select the main branch under 'branch'
+- Once this was selected, the project was pushed to Github pages and the URL is then displayed
+- To access the code, it can be run locally by either selecting "clone" which provides a URL to use on a local machine or "download" to download the zip file on to a local machine.
+
 ## Credits
 ## Acknowledgements
