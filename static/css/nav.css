@@ -18,7 +18,7 @@
     width: 280px;
 }
 
-.navigation ul li {
+.navigation ul .list {
     position: relative;
     list-style: none;
     width: 70px;
@@ -67,6 +67,7 @@
 }
 
 .indicator {
+    list-style: none;
     position: absolute;
     top: 50%;
     width: 70px;
