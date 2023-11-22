@@ -4,7 +4,7 @@
 
 > -	[Overview](#overview)
 > -	[Description](#description)
-> -	[UX](#user-experience)
+> -	[User Experience](#user-experience)
 > -	[Features](#features)
 > -	[Technologies Used](#technologies-used)
 > -	[Testing](#testing)
@@ -88,6 +88,14 @@ Colours were largely chosen to present a clean, easily-navigated, professional s
 ### Icons
 
 Appropriate icons across the site were taken from [Font Awesome](https://fontawesome.com/). These add important visual cues for users, especially on mobile devices. 
+
+## Features
+
+* Fixed nav bar buttons to allow easy navigation of the site
+* 'Dark Mode' button alongside the nav to switch between dark and light themes for the site
+* Multiple 'Download CV' buttons to allow immediate and convenient access to my full CV for potential employers and recruiters
+* Multiple methods of contact - email, phone and LinkedIn
+* Contact form to allow users to send an immediate email without leaving the site or opening any other windows/tabs.
 
 ## Technologies Used
 
