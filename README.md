@@ -139,4 +139,12 @@ Appropriate icons across the site were taken from [Font Awesome](https://fontawe
 - To access the code, it can be run locally by either selecting "clone" which provides a URL to use on a local machine or "download" to download the zip file on to a local machine.
 
 ## Credits
+
+* Navbar based on [Magic Navigation Menu Indicator](https://www.youtube.com/watch?v=ArTVfdHOB-M) by Online Tutorials 
+* Inspiration and guidance provided by [Portfolio Website Tutorial](https://www.youtube.com/watch?v=xV7S8BhIeBo&list=PL7-d_tfTbgodGxSBkJ4G5gOgx8RnSFNG9&index=39&t=932s) by freeCodeCamp.org
+* Additional influence from [this video](https://www.youtube.com/watch?v=zJE-ze4TfXc&list=PL7-d_tfTbgodGxSBkJ4G5gOgx8RnSFNG9&index=22&t=440s) by Cryptical Coder on YouTube
+
 ## Acknowledgements
+
+* My family and friends for their feedback and help with testing.
+* As ever, eternal thanks and love to my wife and sons for their endless patience, support and lending of devices for testing!
