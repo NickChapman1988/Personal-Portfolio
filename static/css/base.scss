@@ -8,26 +8,26 @@
 }
 
 :root {
-    --color-primary: #f7f7f7;
-    --color-secondary: #228cdb;
-    --color-tertiary: #14161a;
-    --color-white: #fff;
-    --color-alt: #fff;
-    --color-black: #000;
-    --color-light-grey: #c0c1be;
+    $color-primary: #f7f7f7;
+    $color-secondary: #228cdb;
+    $color-tertiary: #14161a;
+    $color-white: #fff;
+    $color-alt: #fff;
+    $color-black: #000;
+    $color-light-grey: #c0c1be;
 }
 
 .dark-mode {
-    --color-primary: #14161a;
-    --color-tertiary: #f7f7f7;    
-    --color-alt: #343A40;
+    $color-primary: #14161a;
+    $color-tertiary: #f7f7f7;    
+    $color-alt: #343A40;
 }
 
 body { 
-    background-color: var(--color-primary);
+    background-color: $color-primary;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 1.1rem;
-    color: var(--color-tertiary);
+    color: $color-tertiary;
     min-width: fit-content;
     overflow-x: hidden;
 }
@@ -45,16 +45,16 @@ nav {
 }
 
 li::marker {
-    color: var(--color-secondary);
+    color: $color-secondary;
     font-size: 1.5em;
 }
 .cursive {
-    color: var(--color-secondary);
+    color: $color-secondary;
     font-family: 'Clicker Script', cursive;
 }
 
 .text-blue {
-    color: var(--color-secondary);
+    color: $color-secondary;
 }
 
 .spacer {
@@ -90,7 +90,7 @@ li::marker {
     color: inherit;
     font-weight: 600;
     position: relative;
-    border: 1px solid var(--color-secondary);
+    border: 1px solid $color-secondary;
     margin: 0.5rem;
     display: flex;
     align-items: center;
@@ -100,8 +100,8 @@ li::marker {
         padding: 0 1rem; 
     }
     .btn-icon {
-        background-color: var(--color-secondary);
-        color: var(--color-white);
+        background-color: $color-secondary;
+        color: $color-white;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -121,7 +121,7 @@ li::marker {
         &::before {
             width: 100%;
             height: 100%;
-            background-color: var(--color-secondary);
+            background-color: $color-secondary;
             transform: translateX(0);
         }
     }
@@ -135,7 +135,7 @@ li::marker {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--color-tertiary);
+    background-color: $color-tertiary;
     cursor: pointer;
     position: fixed;
     top: 2%;
@@ -147,7 +147,7 @@ li::marker {
         transform: translateY(-5px);
     }
     i {
-        color: var(--color-primary);
+        color: $color-primary;
         font-size: 1.4rem;
     }
 }
@@ -156,7 +156,7 @@ li::marker {
 
 header {
     min-height: 100vh;
-    color: var(--color-tertiary);
+    color: $color-tertiary;
 } 
 
 .header-content {
@@ -171,7 +171,7 @@ header {
             transition: all .4s ease-in-out;
             width: 65%;
             height: 100%;
-            background-color: var(--color-secondary);
+            background-color: $color-secondary;
             position: absolute;
             left: 0;
             top: 0;
@@ -183,7 +183,7 @@ header {
             height: 90%;
             width: 68%;
             margin-left: 2em;
-            background-color: var(--color-primary);
+            background-color: $color-primary;
             transition: all .4s ease-in-out;
             img {
                 width: 100%;
@@ -213,7 +213,7 @@ header {
             margin: 1.5rem 0;
         }
         .typing {
-            color: var(--color-secondary);
+            color: $color-secondary;
         }
         p {
             margin: 1.5rem 0;
@@ -266,9 +266,9 @@ header {
             }
             a {
                 text-decoration: none;
-                color: var(--color-secondary);
+                color: $color-secondary;
                 &:hover {
-                    color: var(--color-tertiary)
+                    color: $color-tertiary
                 }    
             }
         }
@@ -295,7 +295,7 @@ header {
                 font-weight: 700;
             }
             .progress {
-                background-color: var(--color-light-grey);
+                background-color: $color-light-grey;
                 height: 20px;
                 border-radius: 10px;
                 width: 100%;
@@ -306,7 +306,7 @@ header {
                     left: 0;
                     height: 100%;
                     border-radius: 10px;
-                    background-color: var(--color-secondary);
+                    background-color: $color-secondary;
                 }
                 .skill-level {
                     position: absolute;
@@ -315,7 +315,7 @@ header {
                     transform: translateX(-50%);
                     font-size: 14px;
                     font-weight: 700;
-                    color: var(--color-white);
+                    color: $color-white;
                 }    
             }
         }
@@ -326,9 +326,9 @@ header {
         .tl-container {
             display: flex;
             flex-wrap: wrap;
-            background-color: var(--color-alt);
-            border: 1px solid var(--color-secondary);
-            color: var(--color-tertiary);
+            background-color: $color-alt;
+            border: 1px solid $color-secondary;
+            color: $color-tertiary;
             border-radius: 10px;
             width: 100%;
             box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -352,9 +352,9 @@ header {
                 position: absolute;
                 left: 0;
                 top: 0;
-                color: var(--color-primary);
-                background-color: var(--color-secondary);
-                color: var(--color-white);
+                color: $color-primary;
+                background-color: $color-secondary;
+                color: $color-white;
                 border-radius: 50%;
                 width: 40px;
                 height: 40px;
@@ -416,7 +416,7 @@ header {
             .hover-items {
                 width: 100%;
                 height: 100%;
-                background: var(--color-secondary);
+                background: $color-secondary;
                 position: absolute;
                 left: 0;
                 top: 0;
@@ -430,14 +430,14 @@ header {
                 transition: all .4s ease-in-out;
                 .port-title {
                     font-size: 1rem;
-                    color: var(--color-white);
+                    color: $color-white;
                     margin-bottom: 1.5rem;
                 }
                 .icons {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    color: var(--color-secondary);
+                    color: $color-secondary;
                     a {
                         text-decoration: none;
                     }
@@ -445,15 +445,15 @@ header {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        background-color: var(--color-primary);
-                        color: var(--color-secondary);
+                        background-color: $color-primary;
+                        color: $color-secondary;
                         height: 50px;
                         cursor: pointer;
                         margin: 0 1rem;
                         transition: all .4s ease-in-out;
                         &:hover {
-                            background-color: var(--color-tertiary);
-                            color: var(--color-primary);
+                            background-color: $color-tertiary;
+                            color: $color-primary;
                         }
                     }
                     .live-btn {
@@ -507,7 +507,7 @@ header {
             }
             .text, .subtext {
                 position: absolute;
-                color: var(--color-secondary);
+                color: $color-secondary;
                 letter-spacing: 0.05em;
                 transition: 0.5s;
                 opacity: 0;
@@ -517,8 +517,8 @@ header {
                 display: flex;
                 font-size: 1.5em;
                 margin: 1rem;
-                color: var(--color-white);
-                background-color: var(--color-secondary);
+                color: $color-white;
+                background-color: $color-secondary;
                 width: 70px;
                 height: 70px;
                 border-radius: 50%;
@@ -542,8 +542,8 @@ header {
                 height: 70px;
                 width: 250px;
                 border-radius: 15px;
-                background-color: var(--color-white);
-                color: var(--color-secondary);
+                background-color: $color-white;
+                color: $color-secondary;
                 font-weight: 700;
                 justify-content: center;
                 align-items: center;
@@ -562,9 +562,9 @@ header {
                     padding: .8rem 1.1rem;
                     outline: none;
                     border: none;
-                    background-color: var(--color-white);
+                    background-color: $color-white;
                     width: 100%;
-                    color: var(--color-tertiary);
+                    color: $color-tertiary;
                     resize: none;
                 }
             }
@@ -576,8 +576,8 @@ header {
             }
             button {
                 font-size: 1.1rem;
-                background-color: var(--color-secondary);
-                color: var(--color-white);
+                background-color: $color-secondary;
+                color: $color-white;
                 padding: 1rem;
             }
         }
