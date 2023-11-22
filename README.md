@@ -43,6 +43,25 @@ The target audience for my personal portfolio is potential employers and recruit
 The website is one page, split into four main sections - home, about, portfolio and contact. The fixed navigation buttons allow the use to easily navigate the site. The Home section displays a prominent hero image which scales down on tablets and is hidden on mobiles, and a clear site message. The About section provides more detailed information, as well as listing appropriate skills. The Portfolio section is clean and simple, presenting examples of past work with links to both the source code and live deployed sites. The Contact page presents four ways of getting in touch - via email, phone, LinkedIn messaging or via the in-built contact form, which sends a direct email via the EmailJS API.
 
 ## Skeleton
+
+### Home Section
+
+The Home section is used to introduce the site with a prominent profile image and welcome message. The 'Download CV' button allows visitors to immediately access a copy of my full CV, while the nav buttons allow users to navigate to specific areas of the site. 
+
+### About Section
+
+The About section provides detailed informaton about me and my background, skills, education and experience. The skill progress bars give a visual representation of my proficiency in each area. The education section details my qualifications, and the experience section displays my relevant job roles. 
+
+### Portfolio Section
+
+The Portfolio section displays screenshots of each project on different devices, generated using [AmIResponsive?](https://ui.dev/amiresponsive) originally as part of the projects themselves. Each image has a hover effect to flip the image and display links to the relevant source code and live sites. 
+
+### Contact Section
+
+The Contact section contains three icons to allow users to contact me directly. The email icon is a "mailto" button that will open the users email client with my email address included as the recipient. The LinkedIn icon opens my LinkedIn profile in a new window, allowing users to message me. The phone icon displays my mobile phone number to allow users to call me. 
+
+In addition, there is a built-in contact form which makes use of the EmailJS API in order to send an email directly to me from the portfolio site.
+
 ## Surface
 
 ### Images
