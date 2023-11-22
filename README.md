@@ -39,6 +39,9 @@ The target audience for my personal portfolio is potential employers and recruit
 
 ## User Experience
 ## Structure
+
+The website is one page, split into four main sections - home, about, portfolio and contact. The fixed navigation buttons allow the use to easily navigate the site. The Home section displays a prominent hero image which scales down on tablets and is hidden on mobiles, and a clear site message. The About section provides more detailed information, as well as listing appropriate skills. The Portfolio section is clean and simple, presenting examples of past work with links to both the source code and live deployed sites. The Contact page presents four ways of getting in touch - via email, phone, LinkedIn messaging or via the in-built contact form, which sends a direct email via the EmailJS API.
+
 ## Skeleton
 ## Surface
 
