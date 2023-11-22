@@ -138,6 +138,34 @@ Appropriate icons across the site were taken from [Font Awesome](https://fontawe
 - Once this was selected, the project was pushed to Github pages and the URL is then displayed
 - To access the code, it can be run locally by either selecting "clone" which provides a URL to use on a local machine or "download" to download the zip file on to a local machine.
 
+<details>
+<summary>Forking the GitHub Repository</summary>
+Forking the GitHub repository creates a copy of the original repository on your own GitHub account to view and/or make changes without affecting the original repository; use the following steps to fork:
+
+1. Log in to GitHub and locate the GitHub [repository](https://github.com/NickChapman1988/Personal-Portfolio)
+2. At the top of the repository below the "Settings" button on the menu, locate the "Fork" button.
+3. You should now have a copy of the repository in your own GitHub account.
+
+For further information on *Forking* a [GitHub](https://github.com/) repository, 
+see the [GitHub Documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+</details>
+
+<details>
+<summary>Making a local Clone</summary>
+
+* Go to the [Project Code Repository Location](https://github.com/NickChapman1988/Personal-Portfolio) on [GitHub](https://github.com/).
+* Select the *Code* dropdown and choose *HTTPS* under *Clone*. This will give you a *URL* that may be copied into the clipboard. 
+* Open the Git Bash command line interface in [Gitpod](https://www.Gitpod.io/).
+* Change the current working directory to the location where you would like the cloned directory to reside.
+* Type `git clone`, and then paste the *URL* copied earlier, eg:  
+`$ git clone https://github.com/NickChapman1988/Personal-Portfolio`
+* Press Enter to create the local clone.
+
+For further information on *Cloning* a [GitHub](https://github.com/) repository, see the 
+[GitHub Documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+</details>
+
+
 ## Credits
 
 * Navbar based on [Magic Navigation Menu Indicator](https://www.youtube.com/watch?v=ArTVfdHOB-M) by Online Tutorials 
